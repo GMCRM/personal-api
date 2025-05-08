@@ -1,4 +1,5 @@
 //Localhost
+
 //Landing
 http://localhost:3000
 
@@ -9,16 +10,7 @@ GET http://localhost:3000/contacts
 GET http://localhost:3000/contacts/6816b49cea9ea17f83b3b44e
 
 
-### Get all contacts
-GET http://localhost:3000/contacts
-Content-Type: application/json
-
 //onrender
-
-
-### Get a single contact by ID (John)
-GET http://localhost:3000/contacts/6816b49cea9ea17f83b3b44e
-Content-Type: application/json
 
 //Landing
 https://personal-api-amx8.onrender.com
