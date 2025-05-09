@@ -20,3 +20,67 @@ https://personal-api-amx8.onrender.com/contacts
 
 //Contacts (single by ID) (John)
 https://personal-api-amx8.onrender.com/contacts/6816b49cea9ea17f83b3b44e
+
+
+
+//Localhost
+### Create a new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Chris",
+  "lastName": "Cross",
+  "email": "Chris.Cross.Applesauce@example.com",
+  "favoriteColor": "yellow",
+  "birthday": "1990-01-01"
+}
+
+
+
+### Update a contact
+PUT http://localhost:3000/contacts/681e89567c8c7b44c0088a41
+Content-Type: application/json
+
+{
+  "firstName": "Christopher",
+  "lastName": "Cross",
+  "email": "chrisc@example.com",
+  "favoriteColor": "orange",
+  "birthday": "1991-02-02"
+}
+
+
+### Delete a contact
+DELETE http://localhost:3000/contacts/681e89567c8c7b44c0088a41
+
+Render
+### Create a new contact
+POST https://personal-api-amx8.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Chris",
+  "lastName": "Cross",
+  "email": "Chris.Cross.Applesauce@example.com",
+  "favoriteColor": "yellow",
+  "birthday": "1990-01-01"
+}
+
+
+
+### Update a contact
+PUT https://personal-api-amx8.onrender.com/contacts/681e89567c8c7b44c0088a41
+Content-Type: application/json
+
+{
+  "firstName": "Christopher",
+  "lastName": "Cross",
+  "email": "chrisc@example.com",
+  "favoriteColor": "orange",
+  "birthday": "1991-02-02"
+}
+
+
+### Delete a contact
+DELETE https://personal-api-amx8.onrender.com/contacts/681e89567c8c7b44c0088a41
