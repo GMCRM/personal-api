@@ -84,3 +84,11 @@ Content-Type: application/json
 
 ### Delete a contact
 DELETE https://personal-api-amx8.onrender.com/contacts/681e8b57c3d9cd9a8bddfcc0
+
+
+
+
+
+
+// Swagger UI Localhost
+http://localhost:3000/api-docs/#/
